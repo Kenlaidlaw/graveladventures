@@ -1,0 +1,248 @@
+.news {
+  display: inline;
+  border-radius: 5px;
+  background: #2d7269;
+  color: #fff;
+  padding: 0 10px;
+  margin: 2rem 0;
+}
+
+.bike {
+  display: inline;
+  border-radius: 5px;
+  background: #1d3557;
+  color: #fff;
+  padding: 0 10px;
+  margin: 2rem 0;
+}
+
+.running {
+  display: inline;
+  border-radius: 5px;
+  background: #a8dadc;
+  padding: 0 10px;
+  margin: 2rem 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: url(/img/IMG_3019.JPG) no-repeat center center/cover;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-top: 3rem;
+  border-bottom: 3px solid #1d3557;
+}
+
+header h1 {
+  padding-bottom: 2rem;
+  font-size: 4rem;
+}
+
+header h3 {
+  font-size: 2rem;
+  color: #f1faee;
+}
+
+#about {
+  background: #f1faee;
+  color: #1d3557;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid #1d3557;
+}
+
+#about h4 {
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+#about .lead {
+  font-size: 1.5rem;
+}
+
+.main {
+  max-width: 1280px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main section {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 900px;
+          flex: 2 1 900px;
+  padding: 1rem;
+  border-left: 2px #1d3557 solid;
+}
+
+.main #side {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 2 300px;
+          flex: 1 2 300px;
+  padding: 1rem 0 0 0;
+  border-left: 2px #1d3557 solid;
+  border-right: 2px #1d3557 solid;
+  background-color: #2d7269;
+  color: #a8dadc;
+  text-align: center;
+}
+
+.nav_menu h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  background-color: #1d3557;
+  padding-top: 5px;
+  border-radius: 25%;
+}
+
+#menu_one li {
+  padding: 0 0 3px 5px;
+  text-align: left;
+}
+
+#menu_one a {
+  color: #a8dadc;
+}
+
+#menu_one a:hover {
+  color: #e63946;
+}
+
+#menu_two {
+  padding-left: 10px;
+}
+
+#menu_two a {
+  color: #a8dadc;
+}
+
+#menu_two a:hover {
+  color: #e63946;
+}
+
+.nav_menu ul {
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+#blog1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: blog1;
+}
+
+#blog2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: blog2;
+  background: #a8dadc;
+}
+
+#blog3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: blog3;
+  border: 1px solid #1d3557;
+}
+
+#blog4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: blog4;
+  background: #a8dadc;
+}
+
+#blog5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: blog5;
+  border: 1px solid #1d3557;
+}
+
+#blog6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: blog6;
+  background: #a8dadc;
+}
+
+section .blog-grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'blog1 blog2 blog3' 'blog4 blog5 blog6';
+  grid-gap: 2rem;
+}
+
+section .blog-grid .blog_item {
+  padding: 0.3rem 0.3rem 0 0.3rem;
+  margin: 5px 5px 0 5px;
+  border-radius: 5px;
+}
+
+section .blog-grid .blog_item h4 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+footer {
+  height: 60px;
+  background: #f1faee;
+  border-top: 3px solid #1d3557;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.blog_header {
+  background: url(/img/IMG_3019.JPG) no-repeat center center/cover;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-top: 2rem;
+  border-bottom: 3px solid #1d3557;
+}
+
+.blog_header h1 {
+  padding-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.blog_header h3 {
+  font-size: 2rem;
+  color: #f1faee;
+}
+/*# sourceMappingURL=main.css.map */

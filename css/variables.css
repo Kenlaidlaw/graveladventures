@@ -1,0 +1,26 @@
+.news {
+  display: inline;
+  border-radius: 5px;
+  background: #2d7269;
+  color: #fff;
+  padding: 0 10px;
+  margin: 2rem 0;
+}
+
+.bike {
+  display: inline;
+  border-radius: 5px;
+  background: #1d3557;
+  color: #fff;
+  padding: 0 10px;
+  margin: 2rem 0;
+}
+
+.running {
+  display: inline;
+  border-radius: 5px;
+  background: #a8dadc;
+  padding: 0 10px;
+  margin: 2rem 0;
+}
+/*# sourceMappingURL=variables.css.map */

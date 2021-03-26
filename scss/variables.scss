@@ -1,0 +1,30 @@
+$main-color: #a8dadc;
+$secondary-color: #2d7269;
+$dark-color: #1d3557;
+$light-color: #f1faee;
+$high-color: #e63946;
+$max-width: 1280px;
+
+.news {
+    display:inline;
+    border-radius: 5px;
+    background: $secondary-color;
+    color: #fff;
+    padding: 0 10px;
+    margin: 2rem 0;
+}
+.bike {
+    display:inline;
+    border-radius: 5px;
+    background: $dark-color;
+    color: #fff;
+    padding: 0 10px;
+    margin: 2rem 0;
+}
+.running {
+    display:inline;
+    border-radius: 5px;
+    background: $main-color;
+    padding: 0 10px;
+    margin: 2rem 0;
+}

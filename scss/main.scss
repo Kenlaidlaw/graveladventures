@@ -1,0 +1,207 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+
+header {
+    background: url(/img/IMG_3019.JPG) no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3rem;
+    border-bottom: 3px solid $dark-color;
+
+    h1 {
+        padding-bottom: 2rem;
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        color: $light-color;
+    }
+}
+
+#about {
+    background: $light-color;
+    color: $dark-color;
+    padding: 1rem 2rem;
+    border-bottom: 3px solid $dark-color;
+
+    h4 {
+        padding-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .lead {
+        font-size: 1.5rem;
+    }
+}
+
+.main {
+    max-width: $max-width;
+    margin: auto;
+    display: flex;
+    
+    section {
+        flex: 2 1 900px;
+        padding: 1rem;
+        border-left: 2px $dark-color solid;
+    }
+
+    #side {
+        flex: 1 2 300px;
+        padding: 1rem 0 0 0;
+        border-left: 2px $dark-color solid;
+        border-right: 2px $dark-color solid;
+        background-color: $secondary-color;
+        color: $main-color;
+        text-align: center;
+        
+            
+        
+    }  
+}   
+
+.nav_menu h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    background-color: $dark-color;
+    padding-top: 5px;
+    border-radius: 25%;
+   }
+
+#menu_one {
+    ul {
+        
+    }
+    li {
+        padding: 0 0 3px 5px;
+        text-align: left;
+    }
+
+    a {
+        color: $main-color;
+    }
+
+    a:hover {
+        color: $high-color;
+    }
+}
+
+#menu_two {
+    padding-left: 10px;
+
+    a {
+        color: $main-color;
+    }
+
+    a:hover {
+        color: $high-color;
+    }
+}
+
+.nav_menu ul {
+    font-size: 1.5rem;
+
+}
+img {
+    width: 100%;
+}
+
+#blog1 {
+    grid-area: blog1;
+    // border: 1px solid $dark-color;
+}
+#blog2 {
+    grid-area: blog2;
+    background: $main-color;
+}
+#blog3 {
+    grid-area: blog3;
+    border: 1px solid $dark-color;
+}
+#blog4 {
+    grid-area: blog4;
+    background: $main-color;
+}
+#blog5 {
+    grid-area: blog5;
+    border: 1px solid $dark-color;
+}
+#blog6 {
+    grid-area: blog6;
+    background: $main-color;
+}
+
+section .blog-grid {
+    display: grid;
+grid-template-areas: 
+'blog1 blog2 blog3'
+'blog4 blog5 blog6';
+grid-gap: 2rem;
+
+    .blog_item {
+        padding: 0.3rem 0.3rem 0 0.3rem;
+        margin: 5px 5px 0 5px;
+        border-radius: 5px;
+       
+        h4 {
+            font-size: 1.5rem;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+    }
+}
+
+
+
+footer {
+    height: 60px;
+    background: $light-color;
+    border-top: 3px solid $dark-color;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+// blog sections
+.blog_header {
+    background: url(/img/IMG_3019.JPG) no-repeat center center/cover;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    border-bottom: 3px solid $dark-color;
+
+    h1 {
+        padding-bottom: 2rem;
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        color: $light-color;
+    }
+}
+
+
+
+
